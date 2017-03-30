@@ -1,0 +1,35 @@
+/* line 1, ../scss/main.scss */
+body {
+  background: #eee;
+}
+
+/* line 5, ../scss/main.scss */
+.blog > h1 {
+  color: red;
+  border: 1px solid red;
+}
+
+/* line 11, ../scss/main.scss */
+.blog .entry h1 {
+  font-size: 20px;
+  color: blue;
+}
+/* line 15, ../scss/main.scss */
+.blog .entry p {
+  font-size: 12px;
+  margin: 20px;
+}
+/* line 18, ../scss/main.scss */
+html.csscolumns .blog .entry p {
+  column-count: 2;
+  column-gap: 10px;
+  margin: 10px;
+}
+/* line 24, ../scss/main.scss */
+.blog .entry a {
+  color: red;
+}
+/* line 26, ../scss/main.scss */
+.blog .entry a:hover {
+  color: blue;
+}

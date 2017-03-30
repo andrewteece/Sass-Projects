@@ -1,0 +1,94 @@
+/* VARIABLES */
+/* line 8, ../scss/style.scss */
+html, body {
+  margin: 0;
+  font-family: Arial;
+  color: #ffffff;
+}
+
+/* line 14, ../scss/style.scss */
+p, a {
+  font-size: 0.75rem;
+}
+
+/* line 18, ../scss/style.scss */
+img {
+  padding-left: 30px;
+  height: 350px;
+  width: 550px;
+}
+
+/* line 24, ../scss/style.scss */
+ul {
+  list-style: none;
+}
+
+/* line 28, ../scss/style.scss */
+.container {
+  min-height: 100%;
+  display: flex;
+}
+/* line 31, ../scss/style.scss */
+.container .nav {
+  width: 15%;
+  min-width: 140px;
+  color: #ffcfcf;
+  padding-top: 55px;
+  padding-right: 30px;
+  text-align: center;
+}
+/* line 39, ../scss/style.scss */
+.container .main {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: #ffcfcf;
+}
+
+/* line 49, ../scss/style.scss */
+.nav h4 {
+  -webkit-margin-before: 0;
+  margin-left: 50px;
+}
+
+/* line 54, ../scss/style.scss */
+.main ul {
+  padding-left: 30px;
+}
+
+/* line 58, ../scss/style.scss */
+.main li {
+  font-size: 0.85rem;
+}
+
+/* line 64, ../scss/style.scss */
+.main h1 {
+  font-size: 62px;
+  -webkit-margin-before: 0;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+/* line 71, ../scss/style.scss */
+.main video {
+  padding-left: 30px;
+}
+
+/* line 75, ../scss/style.scss */
+.main p {
+  padding-left: 30px;
+  width: 55%;
+  min-width: 550px;
+}
+
+/* line 81, ../scss/style.scss */
+.main a {
+  color: inherit;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+/* line 87, ../scss/style.scss */
+.main a:hover {
+  text-decoration: underline;
+}
